@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body{
+  font-family: "Lato", sans-serif;
+  
+}
+.bg1{
+  background-image: url("./img/image1.png");
+
+  height: 610px;
+  
+}
+
+.bg1 div{
+background-color: #313534;
+font-size: 40px;
+color: #F7ECE5;
+padding: 30px 25px;
+}
+
+.bgimg div h1{
+
+  font-size: 40px;
+  color: #F7ECE5;
+  font-weight: 300;
+
+  }
+  .bgimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+  }
+
+.bg2{
+  background-image: url("./img/image2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+width: 100%;}
+
+.bg3{
+  background-image: url("./img/image3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+width: 100%;}
+
+.sec1{
+  background: #F4F4F4;
+color: #666666;
+}
+
+.section h2{
+ padding: 20px 0 0 0;
+ text-align: center;
+ font-weight: 300;
+}
+.section p{
+  text-align: center;
+  font-size: 14px;
+  padding: 50px 40px;
+  font-weight: 300;
+}
+
+.sec2{
+  background: #313534;
+color: #FFFFFF;
+}
+
+
+.bigb div{
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(0px);
+  padding: 30px 25px;
+
+}
